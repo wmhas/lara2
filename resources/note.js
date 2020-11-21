@@ -40,3 +40,11 @@ dd($c->toArray())
 $faker->unique(true)->numberBetween(1, 50)
 
 
+//seed
+php artisan db:seed
+php artisan make:seeder UserTableSeeder
+
+//autoload
+composer dump-autoload
+
+
