@@ -1,4 +1,4 @@
-php artisan make:model -m Customer
+/* php artisan make:model -m Customer
 
 //create record
 $c = Company::create(['name'=>'abc com', 'phone'=>'123-12-2233']);
@@ -48,3 +48,4 @@ php artisan make:seeder UserTableSeeder
 composer dump-autoload
 
 
+*/

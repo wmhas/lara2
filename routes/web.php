@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/phone', function () {
+    $user = factory(\App\User::class)->create();
+    $phone = new \App\Phone();
+
+    $phone->phone = '122-2888-222';
+    $user->phone()->save($phone);
+
+    echo 'done';
+});
+
+
