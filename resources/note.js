@@ -47,5 +47,8 @@ php artisan make:seeder UserTableSeeder
 //autoload
 composer dump-autoload
 
+auth
+https://www.youtube.com/watch?v=faIYaogEQDA
+
 
 */

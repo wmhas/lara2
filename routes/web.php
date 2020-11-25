@@ -28,3 +28,9 @@ Route::get('/phone', function () {
 });
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('admin/usrs','Admin\UsersController',['except'=>['show', 'create','store']]);
